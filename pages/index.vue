@@ -1,11 +1,11 @@
 <template lang="pug">
   section
-    h1 おのれこんびーふぃ！
+    h1 おのれコンビーフぃ！
     p
       textarea(v-model="question" cols="30" rows="10")
     p
       strong {{result}}
-    social-sharing.twitter-share.button.common-button(v-bind:title="result" hashtags="おのれこんびーふぃ" inline-template)
+    social-sharing.twitter-share.button.common-button(v-bind:title="result" hashtags="おのれコンビーフぃ" inline-template)
       network(network="twitter")
         button Tweet
 </template>
@@ -24,7 +24,7 @@ export default class extends Vue {
   question: string = 'このアプリは何なんだ'
 
   get result() {
-    return `おのれこんびーふぃ！ ${this.question}！！ 答えるぽよ！！！`
+    return `おのれコンビーフぃ！ ${this.question}！！ 答えるぽよ！！！`
   }
 }
 </script>
