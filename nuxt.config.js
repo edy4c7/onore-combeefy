@@ -25,7 +25,7 @@ module.exports = {
       `http://${host}:${port}`
   },
   head: {
-    title: "tt1",
+    title: "おのれこんびーふぃ！",
     meta: [
       { charset: "utf-8" },
       {
@@ -59,5 +59,8 @@ module.exports = {
   ],
   generate: {
     dir: 'docs'
+  },
+  router: {
+    base: '/onore-combeefy/'
   }
 }
